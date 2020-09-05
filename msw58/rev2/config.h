@@ -19,13 +19,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0x3265
+// +1した
+#define VENDOR_ID       0x3266
+
+// 元のまま
 #define PRODUCT_ID      0x0000
 #define DEVICE_VER      0x0001
+
+// 弄った
 #define MANUFACTURER    xcd0
 #define PRODUCT         msw58
 #define DESCRIPTION     A split handwired keyboard
 
+// 元のまま
 #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 100
 
@@ -52,12 +58,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Rows are 4 or 5
 // #define HELIX_ROWS 5 see ./rules.mk
 
+// 弄った 片手で5行6列
+
 /* key matrix size */
 // Rows are doubled-up
 #define MATRIX_ROWS 10
 #define MATRIX_ROW_PINS { D4, C6, D7, E6, B4 }
 #define MATRIX_COLS 6
 #define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3 }
+
+// 元のまま
+// ledとかoledとかつけないので消してもいいと思う
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
@@ -71,7 +82,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define LOCKING_RESYNC_ENABLE
 
 /* ws2812 RGB LED */
-#define RGB_DI_PIN D3
+//#define RGB_DI_PIN D3
 
 //#define RGBLED_NUM 12    // Number of LEDs. see ./keymaps/default/config.h
 
