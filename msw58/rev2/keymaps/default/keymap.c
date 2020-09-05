@@ -25,7 +25,9 @@ extern uint8_t is_master;
 // entirely and just use numbers.
 enum layer_number {
     _QWERTY = 0,
+    _QWERTY_SHIFT,
 	_YSTRP,
+	_YSTRP_SHIFT,
 	_LEFT,
 	_RIGHT,
 	_ADJUST,
