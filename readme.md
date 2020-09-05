@@ -1,9 +1,11 @@
 # msw58
 
 3Dプリンターで作る手配線 左右分離型キーボードです。  
-[helix]( https://github.com/qmk/qmk_firmware/tree/master/keyboards/helix )互換?な感じにしてます。
+[helix]( https://github.com/qmk/qmk_firmware/tree/master/keyboards/helix )互換?な感じにしています。
+
 	* 回路の変更はキーの数を変えたのみです。  
 	手配線の回路が悪いかをhelixのファームウェアを書き込んで確かめられます。
+
 	* ファームウェアもキーの数を変えてキーマップを好きに変えただけです。
 
 ![](./img/msw58_photo.jpg)
