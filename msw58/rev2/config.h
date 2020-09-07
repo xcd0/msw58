@@ -19,12 +19,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0x3266
+#define VENDOR_ID       0x3266 // 0x3265
 #define PRODUCT_ID      0x0000
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    Yushakobo
-#define PRODUCT         Helix Beta
-#define DESCRIPTION     A split keyboard for the cheap makers
+#define MANUFACTURER    xcd0 // Yushakobo
+#define PRODUCT         msw58 // Helix Beta
+#define DESCRIPTION     A split handwired keyboard. // A split keyboard for the cheap makers
 
 #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 100
@@ -63,8 +63,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 // wiring of each half
-#define MATRIX_COLS 7
-#define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3, B2 }
+#define MATRIX_COLS 6 // 7
+#define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3 } // , B2 }
 // #define MATRIX_COL_PINS { B2, B3, B1, F7, F6, F5, F4 } //uncomment this line and comment line above if you need to reverse left-to-right key order
 
 /* COL2ROW, ROW2COL*/
